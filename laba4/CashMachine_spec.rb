@@ -17,8 +17,8 @@ RSpec.describe CashMachine do
     end
 
     it '#withdraw' do
-      allow_any_instance_of(Kernel).to receive(:gets).and_return('w', 50, 'q')
+      allow_any_instance_of(Kernel).to receive(:gets).and_return('w', 130, 'q')
       expect (subject.init)
-      expect(File.read('balance.txt')).to eql('50.0')
+      expect(File.read('balance.txt')).to eql('130.0')
     end
   end
