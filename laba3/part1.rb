@@ -39,7 +39,7 @@ def delete(id)
 end
 
 index
-where("detectiv")
+where("detective")
 update(2, "Titalik - drama")
 find(3)
 delete(1)
