@@ -16,7 +16,7 @@ base_data=[]
 cout_pocemone = cout_pocemone*2
 cout = cout_pocemone
 while cout_pocemone>0 do
-base_data « gets.chomp
+base_data << gets.chomp
 cout_pocemone = cout_pocemone-1
 end
 
